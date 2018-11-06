@@ -6,7 +6,7 @@
     <title>Scholarship</title>
     <link rel="stylesheet" href="css/styles.css" type="text/css">
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <!-- <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/scripts.js"></script> -->
 </head>
@@ -26,35 +26,38 @@
                 <div class="col-md-6">
                     <form class="text-center border border-light">
                         <p class="h4 mb-4">Scholarship</p>
-                        <input id="Fname" class="form control mb-4" type="text" name="Fname" placeholder="First Name">
-                        <input id="Mname" class="form control mb-4" type="text" name="Mname" placeholder="Middle Name">
-                        <input id="Lname" class="form control mb-4" type="text" name="Lname" placeholder="LastName">
-                        <input id="school" class="form control mb-4" type="text" name="school" placeholder="Available School">
+                        <input type="text" id="fName" name="fName" class="form-control mb-4" placeholder="First Name">
+                        <input type="text" id="Mname" name="Mname" class="form-control mb-4" placeholder="Middle Name">
+                        <input type="text" id="lname" name="lname" class="form-control mb-4" placeholder="Last Name">
+                        <input list="school-list" type="text" id="school" name="school" class="form-control mb-4" placeholder="Available Schools" i class="arrow down"></i>
                         <datalist id="school-list">
                             <option>USIU</option>
                             <option>Maryland</option>
                             <option>Georgia</option>
                         </datalist>
-                        <input id="country" class="form control mb-4" type="text" name="country" placeholder="Country">
-                        <input id="scholarship" class="form control mb-4" type="text" name="scholarship" placeholder="scholarship">
-                        <datalist id="scholarship"></datalist>
-                            <!-- <option>Full Scholarship</option>
+                        <input type="text" id="country" name="country" class="form-control mb-4" placeholder="Country">
+                        <input list="scholarship-list" type="text" id="scholarship" name="scholarship" class="form-control mb-4" placeholder="Types of Scholarship">
+                        <datalist id="scholarship-list">
+                            <option>Full Scholarship</option>
                             <option>Half Scholarship</option>
                             <option>In-State-Freshmen</option>
-                            <option>Out-of-State Freshmen</option> -->
+                            <option>Out-of-State Freshmen</option>
                         </datalist>
-                        <input id="name" class="form control mb-4" type="text" name="name" placeholder="Name">
-                        <input id="name" class="form control mb-4" type="text" name="name" placeholder="Name">
+                        <input type="text" id="email" name="email" class="form-control mb-4" placeholder="Email">
+                        <input type="text" id="phone" name="phone" class="form-control mb-4" placeholder="Phone Number">
                         <div class="d-flex justify-content-around">
                         </div>
                         <button class="btn btn-info " type="submit">Submit</button>
                         </div>
                     </form>
                     <div class="col-md-6">
-                        <h1>JOIN SCOLARSHIP</h1>
+                        <h1>JOIN SCHOLARSHIP</h1>
                         <h3>YOUR SCHOOL YOUR CHOICE</h3>
                         <h3>Better grades start here</h3> 
                     </div>
+                <div class="row">
+                   
+                </div>    
             </div>
         </div>
     </div>     
